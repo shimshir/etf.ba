@@ -19,7 +19,7 @@ font-weight: 200;
 }
 .dobar-up {
     position: relative;
-  
+
     top: -8px;
     color: #27AE60;
     left: 0px;
@@ -92,8 +92,8 @@ header {
 @media (max-width: 767px) {
   .menu-right {
     float: left;
-    
-  
+
+
     position: relative;
     right: 0px;
     margin-right: 41px;
@@ -102,7 +102,7 @@ header {
 }
 }
 
-/* 
+/*
 UKLJUCITI KASNIJE i fino podesiti
 
 
@@ -124,7 +124,7 @@ UKLJUCITI KASNIJE i fino podesiti
 
   .row-offcanvas-right
   .sidebar-offcanvas {
-    right: -50%; 
+    right: -50%;
   }
 
   .row-offcanvas-left
@@ -137,13 +137,13 @@ UKLJUCITI KASNIJE i fino podesiti
   }
 
   .row-offcanvas-left.active {
-    left: 50%; 
+    left: 50%;
   }
 
   .sidebar-offcanvas {
     position: absolute;
     top: 0;
-    width: 50%; 
+    width: 50%;
   }
 } */
 
@@ -265,14 +265,14 @@ header .navbar-nav {
     padding-top: 20px;
     /* padding-left: 16px; */
     padding-bottom: 20px;
-    
+
     min-height: 120px;
 }
 
 .post-middle {
     float: left;
     width: 66%;
-    
+
     min-height: 120px;
     padding-bottom: 15px;
     word-wrap: break-word;
@@ -304,28 +304,28 @@ header .navbar-nav {
   .mighty-post {
     /* margin-right: 5px; */
 
-  
+
     margin-left: 2%;
     width: 96%;
     /* margin: 0 auto; */
   }
-  
+
   .post-right {
       float: left;
-  
+
       width: 100%;
       border: none !important;
       min-height: 0px;
   }
-  
+
   .post-command-2{
 
   }
 
   .post-command-top {
     background: none !important;
-    
-  
+
+
     color: gray !important;
     height: auto !important;
     padding: 0px !important;
@@ -349,7 +349,7 @@ header .navbar-nav {
   .post-middle{
     width: 100% !important;
 
-  
+
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 0px;
@@ -358,22 +358,22 @@ header .navbar-nav {
   .post-title{
     padding-top: 2px !important;
 
-  
+
     margin-left: 75px;
 }
   .post-body{
     float: left;
 
-  
+
     display: block !important;
     width: 100% !important;
     clear: both;
 }
 
 
-  .post-left { 
-  
-  
+  .post-left {
+
+
      padding-bottom: 0px !important;
      min-height: 40px !important;
      height: 40px;
@@ -383,7 +383,7 @@ header .navbar-nav {
   .post-badges{
     width: auto !important;
 
-  
+
     border: none !important;
     padding-top: 4px !important;
     margin-top: 0px !important;
@@ -399,7 +399,7 @@ header .navbar-nav {
   .mighty-post {
     /* margin-right: 5px; */
 
-  
+
     margin-left: 2%;
     width: 96%;
     /* margin: 0 auto; */
@@ -408,7 +408,7 @@ header .navbar-nav {
   .post-middle{
     width: 66%;
 
-  
+
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 0px;
@@ -419,16 +419,16 @@ header .navbar-nav {
 
 .post-left {
       float: left;
-    
+
       width: 88px;
-    
+
       padding-top: 20px;
-    
+
       padding-left: 16px;
-    
+
       padding-bottom: 20px;
-    
-    
+
+
       /* min-height: 120px; */
       display: block;
 }
@@ -465,7 +465,7 @@ header .navbar-nav {
     line-height: 133%;
     color: #333;
     font-size: 15px;
-    
+
     font-weight: 200;
     white-space: pre;
     padding-bottom: 11px;
@@ -511,14 +511,14 @@ header .navbar-nav {
 }
 
 .post-command-2 .fui-check:hover {
-    color: #16A085; 
+    color: #16A085;
     /* cursor: pointer; */
 }
 
 .img-badge {
-	width:24px;
-	height:24px;
-	float:left;
+  width:24px;
+  height:24px;
+  float:left;
 }
 .post-tile {
     min-height: 350px;
@@ -633,4 +633,16 @@ header .navbar-nav {
 
 .categories-blump {
     text-align: center;
+}
+
+.post-date {
+    font-size: 1.5rem;
+    color: #666666;
+}
+
+.post-date:before {
+    content: "";
+    height: 1px;
+    background: linear-gradient(to right,  rgba(0,0,0,0) 0%, rgba(147,147,147,1) 50%, rgba(0,0,0,0) 100%);
+    display: block;
 }
