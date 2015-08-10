@@ -15,12 +15,14 @@ app.filter('imgy2bFilter', ['$filter', '$sce', function ($filter, $sce) {
 			}
 
 			if (value.search(y2bMatch) >= 0) {
-				value= value.replace(y2bMatch, '<iframe width="450" height="253" src="https://www.youtube.com/embed/$1" frameborder="0" allowfullscreen></iframe>');
+				value = $sce.trustAsHtml(value.replace(y2bMatch, 
+					'<iframe width="450" height="253" src="https://www.youtube.com/embed/$1"' + 
+					' frameborder="0" allowfullscreen></iframe>'));
 				isfiltered = 1;
 			}
 
 			if (!isfiltered)
 				value = $filter('linky')(value,'_blank');
-			return $sce.trustAsHtml(value);
+			return value;
 		};
 	}]);
